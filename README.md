@@ -1,6 +1,6 @@
 # Multicontainer application
 
-Codeching - video 8 - Dockerizing a React application with Node.js Postgres and NginX - dev and prod - step by step - PART 1
+Dockerizing a React application with Node.js Postgres and NginX - dev and prod.
 
 
 It contains React client, Node.js backend, PostgreSQL and Nginx
