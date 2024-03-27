@@ -29,3 +29,48 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+# Terraform .terraform directory
+.terraform/
+
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# .tfvars files
+*.tfvars
+
+# Crash log files
+crash.log
+
+# Exclude override files as they're usually used to override resources locally and so
+# are not checked in
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Include override files you do wish to add to version control
+# example_override.tf
+# example_override.tf.json
+
+# .terraform directories (terraform 0.9)
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# .tfstate files (Terraform 0.11)
+*.tfstate.backup
+
+# .terraform directories (Terraform 0.11)
+/.terraform/
+
+# .tfvars files
+*.tfvars
+
+# .terraform directories (Terraform 0.12)
+.tf/
